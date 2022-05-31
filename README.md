@@ -8,15 +8,53 @@ Below are links to each of the Juptyer Notebooks corresponding to its project. B
 
 * [Electron Flow in Copper Metal](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Electron_Flow_Project.ipynb) - The Drude Model of electrical conduction is used to simulate electron flow in a copper wire. The "copper wire", is modeled as a lattice of spherical copper nuclei. The electrons flow through the lattice of copper nuclei under the influence of a uniform electric field. The average drift speed is then calculated within the program. The vypython package is used to animate this simulation.
 
-![My Image](Cu_Wire.jpg =250x250)
+<p align="center">
+  <img 
+    width="400"
+    height="300"
+    src="Cu_Wire.jpg"
+  >
+</p>
 
 * [Double Pendulum](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Double_Pendulum_Project.ipynb) - The Double Pendulum is a system first introduced in a Classical Mechanics course. This system is very interesting as it exhibits chaotic behavior for a given set of initial conditions. This notebook explores the double pendulum with different sets of initial conditions. To model the system, numerical integration is used to solve four different ordinary differential equations. The vpython package is used to visualize the time evolution of this system.
 
+<p align="center">
+  <img 
+    width="400"
+    height="300"
+    src="double_pend.jpg"
+  >
+</p>
+
 * [Ball Toss Simulation](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Ball_Toss_Project.ipynb) - "Paper Toss" was a game released on IOS in which a player can swipe to toss a paper ball into a trash can. This notebook attempts to recreate this game with the parameters of a baseball while accounting for air resistance. Numerical integration is once again used to model the trajectory of the ball while including variable air resistance and a backwind. Players must choose an angle in order to aim the ball towards the target. The user interface is run using vpython. 
+
+<p align="center">
+  <img 
+    width="400"
+    height="300"
+    src="ball_toss.jpg"
+  >
+</p>
 
 * [Chain of Coupled of Oscillators](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Coupled_Oscillators_Project.ipynb) - Numerical integration is a useful tool for solving sets of differential equations for a given system. The issue arises when you have multiple systems that are coupled to each other. A chain of N - coupled oscillators is a perfect example in which it would be computationally taxing to numerically integrate. Linear algebra is a very useful tool to handle this type of system in order to find solutions to these complex systems. The SciPy Linear Algebra package is a powerful tool and is used in order to investigate a chain of N - coupled oscillators with different boundary conditions.
 
-* [Radiative Electric Field](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Electric_Rad_Project.ipynb) - Electrodynamics is a field that describes electric and magnetic fields as they interact with matter and evolve over time. Visualizing these dynamical fields is no trivial task and requires a great understanding of electrodynamical theory as well as handling mass calculations and visualizations efficiently. This notebook explores a radiative electric field due to an accelerating electron. This electron oscillates within a hydrogen nucleus and the evolution of this field is visualized with vpython once again. eeee
+<p align="center">
+  <img 
+    width="400"
+    height="300"
+    src="coup_oscill.jpg"
+  >
+</p>
+
+* [Radiative Electric Field](https://github.com/michael-garcia1/Computational_Physics_Portfolio/blob/main/Electric_Rad_Project.ipynb) - Electrodynamics is a field that describes electric and magnetic fields as they interact with matter and evolve over time. Visualizing these dynamical fields is no trivial task and requires a great understanding of electrodynamical theory as well as handling mass calculations and visualizations efficiently. This notebook explores a radiative electric field due to an accelerating electron. This electron oscillates within a hydrogen nucleus and the evolution of this field is visualized with vpython once again. 
+
+<p align="center">
+  <img 
+    width="400"
+    height="300"
+    src="Erad.jpg"
+  >
+</p>
 
 ## Citations and Acknowledgements
 
